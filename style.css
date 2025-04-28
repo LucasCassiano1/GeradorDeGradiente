@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "poopins", sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    border: rgb(161, 161, 161) solid 1px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.089);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    background: linear-gradient(to bottom , #0088ff, #006e74);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 3px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+h3{ 
+    color:rgb(61, 61, 61);
+
+}
+
+.divColors{
+    text-align: center;
+}
+
+input[type="color"] {
+    border: none;
+    background: transparent;
+    width: 80px;
+    height: 40px;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border-radius: 10px;
+    border: none;
+}
+
+.divDirection{
+    text-align: center;
+    font-size: 30px;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.active {
+    color: black !important;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(0, 105, 158)  ;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(0, 59, 88) !important;
+}
+
+
+#btnCopy {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(0, 105, 158);
+    cursor: pointer;
+}   
+
+textarea{
+    resize: none;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
